@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function() {
+            criaIframe = function() {
+                $("body").html('<iframe border="0" src="http://chegamos.com" height="100%" width="100%"/>');
+            }
+            setTimeout('criaIframe()', 0);
+        });
+    </script>
+    <style type="text/css">
+        html {
+            width: 390px;
+            height: 470px;
+        }
+        body {
+            margin: 0
+        }
+        iframe {
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

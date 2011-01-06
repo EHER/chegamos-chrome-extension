@@ -1,0 +1,16 @@
+{
+	"name": "Chegamos",
+	"version": "1.0",
+	"description": "http://chegamos.com",
+	"browser_action": {
+		"default_icon": "ico.ico",
+		"popup": "chegamos.html"
+	},
+	"permissions": ["tabs", "http://*/*", "https://*/*"],
+	"content_scripts": [
+	    {
+	      "matches": ["http://www.google.com/*"],
+	      "js": ["jquery.js"]
+	    }
+	  ]
+}
